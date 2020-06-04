@@ -2,6 +2,8 @@
 Sistema que calcula ipv4 criado acompanhando o curso 'Python 3 do Básico ao Avançado' 
 
 ```py
+from calcipv4 import CalcIPv4
+
 calc_ipv4 = CalcIPv4(ip='192.160.1.1', cidr=23)
 
 print(f'IP: {calc_ipv4.ip}')
@@ -14,6 +16,8 @@ print(f'Número de IPs de rede: {calc_ipv4.numer_ips}')
 Ou
 
 ``` py
+from calcipv4 import CalcIPv4
+
 calc_ipv4 = CalcIPv4(ip='192.160.1.1', mascara='255.255.254.0')
 
 print(f'IP: {calc_ipv4.ip}')
